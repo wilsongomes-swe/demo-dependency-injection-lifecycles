@@ -10,7 +10,7 @@ public class Logger : ILogger, IDisposable
     public Logger(bool showLog = true)
     {
         if(showLog)
-            Log(this, "🟡 **** ###  Logger constructor (new instance)");
+            Log(this, "Logger constructor (new instance)");
     }
 
     public void Log(object service, string log)
